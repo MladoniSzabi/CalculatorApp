@@ -1,5 +1,11 @@
 import * as React from 'react'
 
-export default function Button({ onPressed, text }) {
-    return <div onClick={() => onPressed(text)}>{text}</div>
+import style from "./Button.module.css"
+
+export default function Button({ rows, onPressed, text, type }) {
+    let className = style.button
+    if (type in style) {
+        className += " " + style[type]
+    }
+    return <div className={className} style={{ gridColumn: "span " + String(rows) }} onClick={() => onPressed(text)}>{text}</div>
 }

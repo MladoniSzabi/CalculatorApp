@@ -13,6 +13,10 @@ function MainPage({ Component, pageProps }: AppProps) {
             <meta charSet="UTF-8"></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"></link>
+
+            <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=''></link>
+            <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=League+Spartan:wght@700&display=swap" rel="stylesheet"></link>
         </Head>
 
         <Component {...pageProps} />
