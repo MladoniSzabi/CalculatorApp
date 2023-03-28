@@ -1,0 +1,25 @@
+{
+  "name": "calculatorapp",
+  "version": "1.0.0",
+  "description": "![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@work:MladoniSzabi/CalculatorApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.10",
+    "@types/react": "18.0.30",
+    "typescript": "5.0.2"
+  }
+}
