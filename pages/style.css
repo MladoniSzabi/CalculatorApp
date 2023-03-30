@@ -1,3 +1,9 @@
+:root {
+    --border-radius: 10px;
+    font-size: 32px;
+    font-family: 'League Spartan';
+}
+
 html,
 body {
     min-height: 100%;
@@ -6,8 +12,6 @@ body {
 }
 
 body {
-    font-size: 32px;
-    font-family: 'League Spartan';
     background-color: hsl(222, 26%, 31%);
 }
 

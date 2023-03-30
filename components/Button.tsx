@@ -7,5 +7,5 @@ export default function Button({ rows, onPressed, text, type }) {
     if (type in style) {
         className += " " + style[type]
     }
-    return <div className={className} style={{ gridColumn: "span " + String(rows) }} onClick={() => onPressed(text)}>{text}</div>
+    return <button className={className} style={{ gridColumn: "span " + String(rows) }} onClick={() => onPressed(text)}>{text}</button>
 }

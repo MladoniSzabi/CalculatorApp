@@ -3,12 +3,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 1em;
+    gap: 0.7em;
 
     background-color: hsl(223, 31%, 20%);
-    padding: 1em;
+    padding: 0.7em;
 
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 #calculator-container {
@@ -18,4 +18,6 @@
     transform: translate(-50%, -50%);
     width: 90%;
     max-width: 15em;
+    display: grid;
+    gap: 1em;
 }
