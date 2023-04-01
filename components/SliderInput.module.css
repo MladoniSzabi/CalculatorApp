@@ -1,0 +1,39 @@
+.slider-input-container {
+    background: hsl(223, 31%, 20%);
+    width: max-content;
+    border-radius: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0.15em;
+    position: relative;
+}
+
+.slider-input-container label {
+    margin: 0;
+    margin-left: 0.3em;
+    width: 1em;
+    height: 1em;
+}
+
+.slider-input-container input {
+    position: absolute;
+    opacity: 0;
+    margin: 0;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.slider-input-container label:first-child {
+    margin: 0;
+}
+
+.slider-input-container div {
+    height: 1em;
+    width: 1em;
+
+    border-radius: 100vw;
+}
+
+.slider-input-container input:checked+div {
+    background-color: hsl(6, 63%, 50%);
+}

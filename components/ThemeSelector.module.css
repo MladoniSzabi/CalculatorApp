@@ -1,0 +1,31 @@
+.theme-selector {
+    display: flex;
+    width: max-content;
+    align-items: flex-end;
+}
+
+.theme-selector span {
+    font-size: 12px;
+    margin: 0;
+    height: max-content;
+    padding-bottom: 0.2em;
+    padding-right: 2em;
+}
+
+.theme-selector>div {
+    position: relative;
+}
+
+.theme-selector label {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.label-container {
+    position: absolute;
+    transform: translateY(-120%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.2em;
+    width: calc(100% - 0.4em);
+}
