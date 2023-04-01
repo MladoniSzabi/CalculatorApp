@@ -1,5 +1,5 @@
 .slider-input-container {
-    background: hsl(223, 31%, 20%);
+    background: var(--keypad-background);
     width: max-content;
     border-radius: 100vw;
     display: flex;
@@ -35,5 +35,5 @@
 }
 
 .slider-input-container input:checked+div {
-    background-color: hsl(6, 63%, 50%);
+    background-color: var(--key-submit-background);
 }

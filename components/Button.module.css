@@ -1,29 +1,29 @@
 .button {
-    background-color: hsl(30, 25%, 89%);
+    background-color: var(--key-background);
     display: inline;
     text-align: center;
     vertical-align: middle;
     border-radius: var(--border-radius);
 
-    color: hsl(221, 14%, 31%);
+    color: var(--key-color);
 
     width: 100%;
     padding: 0.4em;
     margin: auto;
 
     border: none;
-    box-shadow: 0 0.12em hsl(28, 16%, 65%);
+    box-shadow: 0 0.12em var(--key-shadow);
     font: inherit;
 }
 
 .button.control {
-    background-color: hsl(225, 21%, 49%);
-    color: white;
-    box-shadow: 0 0.12em hsl(224, 28%, 35%);
+    background-color: var(--key-control-background);
+    color: var(--key-control-color);
+    box-shadow: 0 0.12em var(--key-control-shadow);
 }
 
 .button.submit {
-    background-color: hsl(6, 63%, 50%);
-    color: white;
-    box-shadow: 0 0.12em hsl(6, 70%, 34%);
+    background-color: var(--key-submit-background);
+    color: var(--key-submit-color);
+    box-shadow: 0 0.12em var(--key-submit-shadow);
 }
