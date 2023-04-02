@@ -19,14 +19,17 @@ body.theme1 {
     --keypad-background: hsl(223, 31%, 20%);
 
     --key-background: hsl(30, 25%, 89%);
+    --key-hover-background: hsl(30, 25%, 97%);
     --key-color: hsl(221, 14%, 31%);
     --key-shadow: hsl(28, 16%, 65%);
 
     --key-control-background: hsl(225, 21%, 49%);
+    --key-control-hover-background: hsl(225, 21%, 70%);
     --key-control-color: white;
     --key-control-shadow: hsl(224, 28%, 35%);
 
     --key-submit-background: hsl(6, 63%, 50%);
+    --key-submit-hover-background: hsl(6, 63%, 65%);
     --key-submit-color: white;
     --key-submit-shadow: hsl(6, 70%, 34%);
 }
@@ -38,14 +41,17 @@ body.theme2 {
     --keypad-background: hsl(0, 5%, 81%);
 
     --key-control-background: hsl(185, 42%, 37%);
+    --key-control-hover-background: hsl(185, 42%, 55%);
     --key-control-color: white;
     --key-control-shadow: hsl(185, 58%, 25%);
 
     --key-submit-background: hsl(25, 98%, 40%);
+    --key-submit-hover-background: hsl(25, 98%, 60%);
     --key-submit-color: white;
     --key-submit-shadow: hsl(25, 99%, 27%);
 
     --key-background: hsl(45, 7%, 89%);
+    --key-hover-background: hsl(45, 7%, 97%);
     --key-color: hsl(60, 10%, 19%);
     --key-shadow: hsl(35, 11%, 61%);
 }
@@ -57,14 +63,17 @@ body.theme3 {
     --keypad-background: hsl(268, 71%, 12%);
 
     --key-submit-background: hsl(176, 100%, 44%);
+    --key-submit-hover-background: hsl(176, 100%, 79%);
     --key-submit-color: hsl(198, 20%, 13%);
     --key-submit-shadow: hsl(177, 92%, 70%);
 
     --key-control-background: hsl(281, 89%, 26%);
+    --key-control-hover-background: hsl(281, 89%, 46%);
     --key-control-color: hsl(0, 0%, 100%);
     --key-control-shadow: hsl(285, 91%, 52%);
 
     --key-background: hsl(268, 47%, 21%);
+    --key-hover-background: hsl(268, 47%, 36%);
     --key-color: hsl(52, 100%, 62%);
     --key-shadow: hsl(290, 70%, 36%);
 }

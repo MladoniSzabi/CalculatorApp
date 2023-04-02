@@ -14,6 +14,15 @@
     border: none;
     box-shadow: 0 0.12em var(--key-shadow);
     font: inherit;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--key-hover-background);
+}
+
+.button:active {
+    background-color: var(--key-shadow);
 }
 
 .button.control {
@@ -22,8 +31,24 @@
     box-shadow: 0 0.12em var(--key-control-shadow);
 }
 
+.button.control:hover {
+    background-color: var(--key-control-hover-background);
+}
+
+.button.control:active {
+    background-color: var(--key-control-shadow);
+}
+
 .button.submit {
     background-color: var(--key-submit-background);
     color: var(--key-submit-color);
     box-shadow: 0 0.12em var(--key-submit-shadow);
+}
+
+.button.submit:hover {
+    background-color: var(--key-submit-hover-background);
+}
+
+.button.submit:active {
+    background-color: var(--key-submit-shadow);
 }

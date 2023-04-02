@@ -37,3 +37,7 @@
 .slider-input-container input:checked+div {
     background-color: var(--key-submit-background);
 }
+
+.slider-input-container input:checked:hover+div {
+    background-color: var(--key-submit-hover-background);
+}
